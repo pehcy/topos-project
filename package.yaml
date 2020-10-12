@@ -2,7 +2,7 @@ name:                topo-project
 version:             0.1.0.0
 github:              "githubuser/topo-project"
 license:             BSD3
-author:              "Author name here"
+author:              "pehcy"
 maintainer:          "example@example.com"
 copyright:           "2020 Author name here"
 
@@ -28,7 +28,7 @@ library:
 executables:
   topo-project-exe:
     main:                Main.hs
-    source-dirs:         app
+    source-dirs:         main
     ghc-options:
     - -threaded
     - -rtsopts

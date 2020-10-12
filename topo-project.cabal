@@ -4,14 +4,14 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 617abd0f220cda5829b1a56f0a7c63e8cefba70bc596864aa591e69f39902508
+-- hash: 526871610e23fa425a8b5aafb316a68e6d1e6f9adda5da0c1898ff5f3d16b0b9
 
 name:           topo-project
 version:        0.1.0.0
 description:    Please see the README on GitHub at <https://github.com/githubuser/topo-project#readme>
 homepage:       https://github.com/githubuser/topo-project#readme
 bug-reports:    https://github.com/githubuser/topo-project/issues
-author:         Author name here
+author:         pehcy
 maintainer:     example@example.com
 copyright:      2020 Author name here
 license:        BSD3
@@ -41,7 +41,7 @@ executable topo-project-exe
   other-modules:
       Paths_topo_project
   hs-source-dirs:
-      app
+      main
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.7 && <5

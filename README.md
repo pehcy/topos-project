@@ -1,8 +1,20 @@
 # topo-project
 
-This project is setup with the Haskell Tool Stack
+This project is setup with the Haskell Tool Stack.
 
-To execute the program, we can use the following command
+## Start a new project
+According to official user guide, you can try
 ```shell
-stack setup && build
+stack built && setup
+```
+
+The Haskell-stack would build an executable program in 
+the `.stack-work` directory.
+
+```shell
+stack path --local-install-root
+```
+
+```shell
+stack run
 ```
